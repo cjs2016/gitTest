@@ -1,0 +1,45 @@
+6월 13일 금요일
+test.txt 파일 커밋
+test2.txt 파일 커밋
+
+=== 깃에서 기본 편집기 변경하기 ===
+git config --global core.editor "notepad++"
+
+=== 깃 환경 설정 ===
+git config --global user.name "cjs"
+git config --global user.email "topchung12@gmail.com"
+
+=== 자주 쓰는 명령어 ===
+git init  현재 위치에서 지역 저장소를 만듭니다.
+git log --stat  각각의 파일별 수정사항을 포함하여 커밋한 내용을 보여줌
+git status  파일상태를 알려줌 (modified, staged, commit)
+cat  [파일이름]   파일의 내용을 보여줌
+vim  [파일이름]  해당 파일을 수정함(입력모드 i, 종료 esc, :wq 저장후 종료)
+git add [파일이름]   해당 파일을 스테이지에 올림
+git commit -am  [파일이름]  해당파일을 스테이지에 올림과 동시에 메시지를 붙여 커밋
+git diff  파일의 수정한 이력을 보여줌.
+git restore [파일이름]   바로 직전 수정사항을 되돌림. 
+git restore --staged [파일이름]   파일을 스테이지 상태에서 내림
+git reset <해시값>  해당 위치로 커밋을 이동하고 이후 커밋은 취소됨.
+git branch   브랜치를 보여줌
+git branch <브랜치명> 브랜치를 생성
+git checkout <브랜치명>  해당 브랜치로 이동
+git merge <대상브랜치>  현재 head 가 가리키는 브랜치에 대상브랜치를 병합
+git log --oneline --branches --graph
+git init <디렉토리명> 디렉토리를 만드는 동시에 지역  깃저장소도 만듦
+git reset <해시값> 현재 head를 다른 브랜치로 옮기고 현재 커밋은 삭제됨
+git branch -d <브랜치명>  브랜치를 삭제
+git stash  작업트리의 수정내용을 따로 보관함
+git stash list  스태시 저장소에 있는 내용을 보여줌
+git stash pop  스태시에 있는 내용을 꺼냄
+git remote -v 원격저장소 확인
+
+
+
+6월14일 토요일
+git remote add origin https://github.com/cjs2016/gitTest.git
+
+
+
+
+
