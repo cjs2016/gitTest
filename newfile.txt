@@ -1,4 +1,4 @@
-6월 13일 금요일
+u6월 13일 금요일
 test.txt 파일 커밋
 test2.txt 파일 커밋
 
@@ -38,12 +38,21 @@ git remote -v 원격저장소 확인
 git remote add origin <원격주소>
 git push -u origin master 
 git push
+git pull
 git pull origin master 원격저장소 내용 + 지역저장소
 git clone [복사한 주소 붙여넣기] [지역디렉토리명]
 git fetch 원격저장소내용만 
 git checkout FETCH_HEAD
 git checkout master
 git merge FETCH_HEAD
+git checkout -b <브랜치명> 브랜치를 만들고 체크아웃
+gut push origin <브랜치명> 원격저장소에 브랜치를 만들고  푸쉬
+
+pull request
+merge pull request
+confirm merge
+
+
 
 
 
