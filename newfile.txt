@@ -6,8 +6,8 @@ test2.txt 파일 커밋
 git config --global core.editor "notepad++"
 
 === 깃 환경 설정 ===
-git config --global user.name "cjs"
-git config --global user.email "topchung12@gmail.com"
+git config --global user.name "이름"
+git config --global user.email "이메일"
 
 === 자주 쓰는 명령어 ===
 git init  현재 위치에서 지역 저장소를 만듭니다.
@@ -32,12 +32,14 @@ git branch -d <브랜치명>  브랜치를 삭제
 git stash  작업트리의 수정내용을 따로 보관함
 git stash list  스태시 저장소에 있는 내용을 보여줌
 git stash pop  스태시에 있는 내용을 꺼냄
+
+=== 원격저장소 ===
 git remote -v 원격저장소 확인
+git remote add origin <원격주소>
+git push -u origin master 
+git push
+git pull origin master
 
-
-
-6월14일 토요일
-git remote add origin https://github.com/cjs2016/gitTest.git
 
 
 
