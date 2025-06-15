@@ -41,6 +41,9 @@ git push
 git pull origin master 원격저장소 내용 + 지역저장소
 git clone [복사한 주소 붙여넣기] [지역디렉토리명]
 git fetch 원격저장소내용만 
+git checkout FETCH_HEAD
+git checkout master
+git merge FETCH_HEAD
 
 
 
