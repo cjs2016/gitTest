@@ -38,7 +38,10 @@ git remote -v 원격저장소 확인
 git remote add origin <원격주소>
 git push -u origin master 
 git push
-git pull origin master
+git pull origin master 원격저장소 내용 + 지역저장소
+git clone [복사한 주소 붙여넣기] [지역디렉토리명]
+git fetch 원격저장소내용만 
+
 
 
 
