@@ -16,7 +16,7 @@ git status  파일상태를 알려줌 (modified, staged, commit)
 cat  [파일이름]   파일의 내용을 보여줌
 vim  [파일이름]  해당 파일을 수정함(입력모드 i, 종료 esc, :wq 저장후 종료)
 git add [파일이름]   해당 파일을 스테이지에 올림
-git commit -am  [파일이름]  해당파일을 스테이지에 올림과 동시에 메시지를 붙여 커밋
+git commit -am  "메시지내용" 파일을 스테이지에 올림과 동시에 메시지를 붙여 커밋
 git diff  파일의 수정한 이력을 보여줌.
 git restore [파일이름]   바로 직전 수정사항을 되돌림. 
 git restore --staged [파일이름]   파일을 스테이지 상태에서 내림
