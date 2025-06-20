@@ -1,4 +1,4 @@
-u6월 13일 금요일
+6u6월 13일 금요일
 test.txt 파일 커밋
 test2.txt 파일 커밋
 
@@ -46,7 +46,7 @@ git checkout FETCH_HEAD
 git checkout master
 git merge FETCH_HEAD
 git checkout -b <브랜치명> 브랜치를 만들고 체크아웃
-gut push origin <브랜치명> 원격저장소에 브랜치를 만들고  푸쉬
+git push origin <브랜치명> 원격저장소에 브랜치를 만들고  푸쉬
 
 pull request
 merge pull request
